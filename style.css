@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #ff0000; /* Red background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #fff; /* White on hover */
+    text-decoration: underline;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    color: #ff0000; /* Red section titles */
+  }
+  /* Image Styling */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+  button {
+    background-color: #d30202;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #bb0000; /* Darker hover color */
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+  padding: 10px;
+  background: #111; /* Slightly lighter black for footer */
+  color: white;
+  margin-top: 20px;
+  }
+  
